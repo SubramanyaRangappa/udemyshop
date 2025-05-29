@@ -1,0 +1,23 @@
+{
+  "name": "udemy",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node backend/app.js",
+    "dev": "SET NODE_ENV = DEVELOPMENT& nodemon backend/app.js",
+    "prod": "SET NODE_ENV = PRODUCTION& nodemon backend/app.js",
+    "seeder": "node backend/seeder/seeder.js"
+  },
+  "author": "Subramanya",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
